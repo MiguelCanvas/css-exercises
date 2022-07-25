@@ -3,15 +3,31 @@ body {
 }
 
 img {
+  /* display: block; */
   width: 100px;
   height: 100px;
+  margin: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding-bottom: 14px;
 }
 
+
+.flower-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.flower{
+  width: 200px;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
